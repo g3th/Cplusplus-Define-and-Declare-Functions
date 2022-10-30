@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// definition
+// declaration
 
 void print_string(string);
 void print_string_pyramid(string);
@@ -17,7 +17,7 @@ int main(){
 	print_string_pyramid(user_input);
 }
 
-// declaration
+// definition
 
 void print_string(string string_input){
 	cout << "\n" << string_input <<"\n";
